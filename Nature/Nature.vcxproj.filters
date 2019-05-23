@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\utilities">
+      <UniqueIdentifier>{cfc44a75-c97e-44e5-9618-f4adfb6dda3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utilities">
+      <UniqueIdentifier>{afd4b7c1-a285-4c52-a8a3-df7fff77d523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{da48afad-93ce-4e77-907a-7ffd11b88265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\models">
+      <UniqueIdentifier>{f6b57f09-cf21-4497-ae1f-ae654f4cac3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\textures">
+      <UniqueIdentifier>{ede0def8-53e7-47e5-9bdd-534f33f3f674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{fadb2224-244e-433b-bb15-57e1f8acaef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{bbcff02e-1df1-4578-91fa-eda465cf8068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\renderer">
+      <UniqueIdentifier>{eeb50e2d-1803-4887-83ae-18d510245c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer">
+      <UniqueIdentifier>{6aff6558-3963-4f37-ad3e-dbfacc4e193e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libraries">
+      <UniqueIdentifier>{52e5d503-642c-4c06-ab23-46da5601bb3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libraries\noise">
+      <UniqueIdentifier>{6eea2b7c-e0f0-456c-aa25-d676f0697cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libraries\opengl">
+      <UniqueIdentifier>{16c12aec-f3df-4907-89eb-0d703e63f929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libraries\opengl\handles">
+      <UniqueIdentifier>{a25f4c7b-13c2-4cf8-8b69-fb7199f3f49f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libraries">
+      <UniqueIdentifier>{71aa192b-675f-4015-8684-f2ccdbe86faf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libraries\opengl">
+      <UniqueIdentifier>{fae55ef1-3d7b-4af0-b23c-d4fb80438577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libraries\opengl\handles">
+      <UniqueIdentifier>{7643b621-5649-45c9-8dd7-f73765c256c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libraries\noise">
+      <UniqueIdentifier>{8ba367b5-6ade-441e-abd5-2b41e2dd2d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\libraries\logger">
+      <UniqueIdentifier>{575d4b32-979e-4b06-bf9a-ae75d43a9011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\libraries\logger">
+      <UniqueIdentifier>{f829c5ca-09a4-4346-8b4c-037885e7ed04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenglException.cpp">
+      <Filter>Source Files\libraries\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4f.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtilities.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="IOException.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="FileReader.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="StringTokenizer.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="FragmentShaderHandle.cpp">
+      <Filter>Source Files\libraries\opengl\handles</Filter>
+    </ClCompile>
+    <ClCompile Include="Handle.cpp">
+      <Filter>Source Files\libraries\opengl\handles</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureHandle.cpp">
+      <Filter>Source Files\libraries\opengl\handles</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgramHandle.cpp">
+      <Filter>Source Files\libraries\opengl\handles</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShaderHandle.cpp">
+      <Filter>Source Files\libraries\opengl\handles</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source Files\libraries\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="Opengl.cpp">
+      <Filter>Source Files\libraries\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\libraries\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatBuffer.cpp">
+      <Filter>Source Files\libraries\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferHandle.cpp">
+      <Filter>Source Files\libraries\opengl\handles</Filter>
+    </ClCompile>
+    <ClCompile Include="Framebuffer.cpp">
+      <Filter>Source Files\libraries\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="FramebufferHandle.cpp">
+      <Filter>Source Files\libraries\opengl\handles</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderbufferHandle.cpp">
+      <Filter>Source Files\libraries\opengl\handles</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelReader.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageReader.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexOutOfBoundsException.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArrayHandle.cpp">
+      <Filter>Source Files\libraries\opengl\handles</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexArray.cpp">
+      <Filter>Source Files\libraries\opengl</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassClump.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Color3f.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3f.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatGenerator.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassGenerator.cpp">
+      <Filter>Source Files\utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="open-simplex-noise.c">
+      <Filter>Source Files\libraries\noise</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsRenderer.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsWidget.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\libraries\logger</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="GraphicsWidget.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+    <QtMoc Include="MainWindow.h">
+      <Filter>Header Files\gui</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="MainWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenglException.h">
+      <Filter>Header Files\libraries\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4f.h">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtilities.h">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="IOException.h">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader.h">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="StringTokenizer.h">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="FragmentShaderHandle.h">
+      <Filter>Header Files\libraries\opengl\handles</Filter>
+    </ClInclude>
+    <ClInclude Include="Handle.h">
+      <Filter>Header Files\libraries\opengl\handles</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureHandle.h">
+      <Filter>Header Files\libraries\opengl\handles</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgramHandle.h">
+      <Filter>Header Files\libraries\opengl\handles</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShaderHandle.h">
+      <Filter>Header Files\libraries\opengl\handles</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h">
+      <Filter>Header Files\libraries\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="Opengl.h">
+      <Filter>Header Files\libraries\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\libraries\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatBuffer.h">
+      <Filter>Header Files\libraries\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferHandle.h">
+      <Filter>Header Files\libraries\opengl\handles</Filter>
+    </ClInclude>
+    <ClInclude Include="Framebuffer.h">
+      <Filter>Header Files\libraries\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="FramebufferHandle.h">
+      <Filter>Header Files\libraries\opengl\handles</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderbufferHandle.h">
+      <Filter>Header Files\libraries\opengl\handles</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelReader.h">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageReader.h">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexOutOfBoundsException.h">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArrayHandle.h">
+      <Filter>Header Files\libraries\opengl\handles</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexArray.h">
+      <Filter>Header Files\libraries\opengl</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassClump.h">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Color3f.h">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3f.h">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatGenerator.h">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassGenerator.h">
+      <Filter>Header Files\utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="open-simplex-noise.h">
+      <Filter>Header Files\libraries\noise</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsRenderer.h">
+      <Filter>Header Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Nocopy.h">
+      <Filter>Header Files\libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\libraries\logger</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shaders\fsFrame.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\fsFrame2.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\fsGrass.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\fsGround.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\fsGui.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\vsFrame.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\vsFrame2.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\vsGrass.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\vsGround.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="Resources\shaders\vsGui.glsl">
+      <Filter>Resource Files\shaders</Filter>
+    </None>
+    <None Include="Resources\models\ground">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="Resources\models\grass">
+      <Filter>Resource Files\models</Filter>
+    </None>
+    <None Include="Resources\models\frame">
+      <Filter>Resource Files\models</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="MainWindow.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\textures\grass.png">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="Resources\textures\ground.jpg">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="open-simplex-noise-readme.txt">
+      <Filter>Header Files\libraries\noise</Filter>
+    </Text>
+    <Text Include="log.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

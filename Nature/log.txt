@@ -1,0 +1,70 @@
+Renderer constructor!
+Graphics widget constructor!
+Using version 4.3.0 - Build 22.20.16.4836
+Renderer onCreate!
+Renderer onResize!
+Timer started!
+Renderer onResize!
+resized to 533 375
+Renderer onResize!
+resized to 533 373
+Renderer constructor!
+Graphics widget constructor!
+Using version 4.3.0 - Build 22.20.16.4836
+Renderer onCreate!
+Renderer onResize!
+Timer started!
+Renderer onResize!
+resized to 533 375
+Renderer onResize!
+resized to 533 373
+Renderer onResize!
+resized to 1578 783
+Renderer constructor!
+Graphics widget constructor!
+Using version 4.3.0 - Build 22.20.16.4836
+Renderer onCreate!
+Renderer onResize!
+Timer started!
+Renderer onResize!
+resized to 533 375
+Renderer onResize!
+resized to 533 373
+Renderer onResize!
+resized to 1578 783
+Renderer constructor!
+Graphics widget constructor!
+Using version 4.3.0 - Build 22.20.16.4836
+Renderer onCreate!
+Renderer onResize!
+Timer started!
+Renderer onResize!
+resized to 533 375
+Renderer onResize!
+resized to 533 373
+Renderer onResize!
+resized to 1578 783
+Renderer constructor!
+Graphics widget constructor!
+Using version 4.3.0 - Build 22.20.16.4836
+Renderer onCreate!
+Renderer onResize!
+Timer started!
+Renderer onResize!
+resized to 533 375
+Renderer onResize!
+resized to 533 373
+Renderer onResize!
+resized to 1578 783
+Renderer constructor!
+Graphics widget constructor!
+Using version 4.3.0 - Build 22.20.16.4836
+Renderer onCreate!
+Renderer onResize!
+Timer started!
+Renderer onResize!
+resized to 533 375
+Renderer onResize!
+resized to 533 373
+Renderer onResize!
+resized to 1578 783
